@@ -1,0 +1,16 @@
+<h1>Ejercicios clase 01:</h1>
+<p>Ingresar edades: </p>
+
+<input type="number" id="edadUno" [(ngModel)]="edadUno">
+<br>
+<input type="number" id="edadDos" [(ngModel)]="edadDos">
+<br><br>
+<button (click)=calcularPromedio()>Calcular</button>
+<button (click)=limpiarCuadros()>Limpiar cuadros de texto</button>
+<br>
+<p>Promedio: </p>
+<label>{{promedio}}</label>
+
+
+
+<router-outlet></router-outlet>
